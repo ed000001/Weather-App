@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: linear-gradient(rgb(69, 73, 134), rgb(108, 182, 243)) ;
+          
+      }
+            
+        
+
+        .title {
+            text-align: center;
+            font-size: 50px;
+            margin: 20px;
+            padding: 40px;
+            box-sizing: border-box;
+            color: white;
+
+        }
+
+        .container {
+            height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .container div {
+            padding: 30px;
+        }
+
+        .temp, .location, .description{
+            font-size: 35px;
+            color: white;
+        }
+        .temp {
+            color:rgb(255, 251, 11)
+        }
+
+        .temp-des {
+            display: flex;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class='title'>Weather App</div>
+    <div class='container'>
+        <div class = 'location'>LOCATION</div>
+        <div class='temp-des'>
+            <div class='temp'>Temperature</div>
+            <div class='description'>des</div>
+        </div>
+        <div >
+            <img class = 'icon'></img>
+        </div>
+        
+    </div>
+    
+    <script src="javaScript.js"></script>
+</body>
+</html>
